@@ -8,4 +8,8 @@ export default defineConfig({
     host: '0.0.0.0', // Allow external connections
     port: 5173,      // Optional: default port
   },
+  build: {
+    minify: true, // Ensure minification is enabled
+    sourcemap: false // Ensure sourcemaps are disabled for production
+  }
 })
