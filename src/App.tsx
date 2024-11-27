@@ -7,7 +7,7 @@ import { CategoryList } from "./components/CategoryList";
 import { CategoryEdit } from "./components/CategoryEdit";
 import { CategoryCreate } from "./components/CategoryCreate";
 
-const dataProvider = jsonServerProvider("http://localhost:3000");
+const dataProvider = jsonServerProvider("https://ra-admin-backend.onrender.com/");
 
 const App = () => (
   <Admin dataProvider={dataProvider}>
